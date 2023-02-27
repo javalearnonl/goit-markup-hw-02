@@ -52,7 +52,6 @@ body {
 .nav-link {
   text-decoration: none;
   color: var(--main-text-color);
-  list-style: none;
   letter-spacing: 0.02em;
 
   font-weight: 500;
@@ -81,14 +80,11 @@ body {
 }
 
 .contacts-link {
-  list-style: none;
   text-decoration: none;
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--second-text-color);
   line-height: 1.5em;
-
-  letter-spacing: 0.02em;
 }
 .contacts {
   list-style: none;
@@ -98,7 +94,6 @@ body {
   background-color: var(--main-text-color);
 }
 .hero-title {
-  font-style: normal;
   font-size: 56px;
   line-height: 1.07em;
   text-align: center;
@@ -130,6 +125,7 @@ body {
 }
 .about-text {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 /* Works */
 .works-title,
